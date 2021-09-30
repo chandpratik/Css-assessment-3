@@ -1,0 +1,181 @@
+body {
+  box-sizing: border-box;
+  background: #cecece;
+}
+
+.box {
+  border: solid red 6px;
+  border-radius: 10px;
+  box-shadow: 6px 6px green;
+}
+
+.top-box {
+  position: relative;
+  left: 30%;
+  color: blue;
+  background: white;
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 600;
+  text-shadow: 1.3px 1.3px red;
+  line-height: 1.5;
+  padding: 5px 100px;
+  width: 210px;
+}
+
+.middle-box-container {
+  margin: 20px 0 0 0;
+  border: solid green 6px;
+  position: relative;
+  height: 700px;
+}
+.divider {
+  border-top: 2px solid white;
+  color: black;
+}
+
+.middle-box-1 {
+  top: 5px;
+  left: 5px;
+  position: absolute;
+  text-align: center;
+  width: 250px;
+  background: white;
+  font-size: 30px;
+  text-shadow: 1.3px 1.3px red;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 20px 10px;
+}
+
+.middle-box-2 {
+  top: 5px;
+  right: 100px;
+  position: absolute;
+  background: white;
+  width: 218px;
+  padding: 25px;
+}
+
+.middle-box-2 > img {
+  width: 100%;
+}
+
+.middle-box-3 {
+  bottom: 30px;
+  left: 5px;
+  position: absolute;
+  width: 270px;
+  background: white;
+  font-size: 30px;
+  text-shadow: 1.3px 1.3px red;
+  font-weight: 600;
+  padding: 5px 0;
+}
+
+.middle-box-4 {
+  position: absolute;
+  bottom: 15px;
+  right: 100px;
+  text-align: center;
+  width: 270px;
+  height: 250px;
+  background: white;
+  font-size: 30px;
+  text-shadow: 1.3px 1.3px red;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.middle-box-4 > p {
+  margin: 2px;
+}
+
+.rating {
+  font-size: 20px;
+}
+
+.submit {
+  font-size: 15px;
+}
+
+.submit-button {
+  border-radius: 20px;
+  background: red;
+}
+
+.bottom-box-container {
+  border: 10px solid purple;
+  width: 60%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background: green;
+  text-align: center;
+  height: fit-content;
+  padding: 5px;
+}
+
+.bottom-box-heading {
+  font-size: 30px;
+  font-weight: bold;
+}
+.bottom-box-container span {
+  font-size: 25px;
+  font-weight: bold;
+  display: block;
+  margin: 26px 0px;
+}
+.bottom-box-container p {
+  line-height: 40px;
+}
+.bottom-box-container div {
+  background: rgb(224, 224, 110);
+  width: 50%;
+  height: fit-content;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.bottom-box-container .miscellaneous {
+  clear: both;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.fruits {
+  float: left;
+}
+.vegetables {
+  float: right;
+  margin-bottom: 15px;
+}
+
+.offer {
+  position: fixed;
+  bottom: 60px;
+  left: 28%;
+  background-color: greenyellow;
+  height: 100px;
+  width: 500px;
+  border: 10px solid orangered;
+  border-radius: 10px;
+  box-shadow: purple 8px 8px;
+  text-align: center;
+  font-style: italic;
+  color: brown;
+  font-weight: bolder;
+}
+.offer-day {
+  font-size: 25px;
+  width: 300px;
+  margin: 0;
+  margin: 20px 0px 0px 0px;
+  float: left;
+}
+.discount {
+  font-size: 20px;
+  margin: 10px;
+}
